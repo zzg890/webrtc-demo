@@ -40,7 +40,7 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "src/assets/webrtc-streamer.js"
+              "webrtc-streamer/html/webrtcstreamer.js"
             ]
           },
           "configurations": {
