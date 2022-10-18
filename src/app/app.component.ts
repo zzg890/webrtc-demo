@@ -11,7 +11,7 @@ declare class WebRtcStreamer {
 export class AppComponent implements OnInit {
   ngOnInit(): void {
     var streamer = new WebRtcStreamer("video", location.protocol + "//" + window.location.hostname + ":8000");
-    streamer.connect("");
+    streamer.connect("rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4");
   }
   title = 'webrtc-demo';
 }
